@@ -1,120 +1,70 @@
-File Sharing Application
+# Getting Started with Create React App
 
-Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This is a full-stack file-sharing application that allows users to upload and download files seamlessly. The frontend is built using React.js, while the backend is powered by Node.js with Express.js. The application features an intuitive user interface for file management and robust API endpoints for efficient data handling.
+## Available Scripts
 
-Features
+In the project directory, you can run:
 
-User-friendly interface for uploading and downloading files.
+### `npm start`
 
-Backend API built with Express.js to handle file storage and retrieval.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-File upload handling implemented using Multer middleware.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-CORS integration to ensure smooth communication between frontend and backend.
+### `npm test`
 
-Secure and scalable architecture for efficient file sharing.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Tech Stack
+### `npm run build`
 
-Frontend:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-React.js
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Axios (for API requests)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Bootstrap / Tailwind CSS (for styling)
+### `npm run eject`
 
-Backend:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Node.js
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Express.js
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Multer (for handling file uploads)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-CORS (for enabling cross-origin requests)
+## Learn More
 
-Installation
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Prerequisites
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Ensure you have the following installed:
+### Code Splitting
 
-Node.js
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-npm or yarn
+### Analyzing the Bundle Size
 
-Steps to Run the Project
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Clone the repository
+### Making a Progressive Web App
 
-git clone https://github.com/yourusername/file-sharing-app.git
-cd file-sharing-app
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Install backend dependencies
+### Advanced Configuration
 
-cd backend
-npm install
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Run the backend server
+### Deployment
 
-npm start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-The backend runs on http://localhost:5000
+### `npm run build` fails to minify
 
-Install frontend dependencies
-
-cd ../frontend
-npm install
-
-Start the frontend
-
-npm start
-
-The frontend runs on http://localhost:3000
-
-API Endpoints
-
-File Upload
-
-POST /upload
-
-Request: FormData with file
-
-Response: { "message": "File uploaded successfully", "fileUrl": "..." }
-
-File Download
-
-GET /download/:filename
-
-Response: File stream for downloading
-
-Folder Structure
-
-file-sharing-app/
-│── backend/
-│   ├── routes/
-│   ├── middleware/
-│   ├── server.js
-│   ├── package.json
-│── frontend/
-│   ├── src/
-│   ├── components/
-│   ├── App.js
-│   ├── package.json
-│── README.md
-
-Future Improvements
-
-Implement authentication for secure file access.
-
-Add a database to store file metadata.
-
-Enhance UI with better design elements.
-
-License
-
-This project is licensed under the MIT License.
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
